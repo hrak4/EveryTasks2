@@ -20,6 +20,7 @@
 //アプリ起動直後に呼ばれるメソッド
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+NSLog(@"hogehoge");
     // Override point for customization after application launch.
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
   //topViewをインスタンス化している
